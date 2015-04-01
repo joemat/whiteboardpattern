@@ -18,9 +18,9 @@
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.7 -Xms40m -Xmx512m -Dosgi.user.area=@user.home/.eclipse.user.area -Declipse.ignoreApp=true -Dosgi.noShutdown=true"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <booleanAttribute key="show_selected_only" value="false"/>
-<stringAttribute key="target_bundles" value="org.eclipse.equinox.ds@1:true,org.eclipse.equinox.util@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi@-1:true"/>
+<stringAttribute key="target_bundles" value="org.eclipse.equinox.ds@1:true,org.eclipse.equinox.util@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi.util@default:default,org.eclipse.osgi@-1:true"/>
 <booleanAttribute key="tracing" value="false"/>
 <booleanAttribute key="useCustomFeatures" value="false"/>
 <booleanAttribute key="useDefaultConfigArea" value="true"/>
-<stringAttribute key="workspace_bundles" value="de.elinja.whiteboard.api@default:default,de.elinja.whiteboard.numberprovider@default:default,de.elinja.whiteboard.printer.bin@3:default,de.elinja.whiteboard.printer.hex@3:default"/>
+<stringAttribute key="workspace_bundles" value="de.elinja.whiteboard.api@default:default,de.elinja.whiteboard.numberprovider@5:default,de.elinja.whiteboard.printer.bin@3:default,de.elinja.whiteboard.printer.hex@3:default"/>
 </launchConfiguration>

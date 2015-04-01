@@ -3,8 +3,12 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Eventsource
 Bundle-SymbolicName: de.elinja.whiteboard.numberprovider
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: de.elinja.whiteboard.numberprovider.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Activator: de.elinja.whiteboard.numberprovider.osgi.Activator
 Import-Package: de.elinja.whiteboard.api,
- org.osgi.framework;version="1.3.0"
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;
+ org.osgi.service.component;version="1.2.2",
+ org.osgi.service.component.annotations;version="1.2.0"
 Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/de.elinja.whiteboard.numberprovider.NumberProvider.xml
