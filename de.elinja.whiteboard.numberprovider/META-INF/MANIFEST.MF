@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Eventsource
-Bundle-SymbolicName: de.elinja.whiteboard.numberprovider
+Bundle-SymbolicName: de.elinja.whiteboard.numberproducer
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-Activator: de.elinja.whiteboard.numberprovider.osgi.Activator
+Bundle-Activator: de.elinja.whiteboard.numberproducer.osgi.Activator
 Import-Package: de.elinja.whiteboard.api,
  org.osgi.framework;version="1.3.0",
  org.osgi.util.tracker;

@@ -1,11 +1,11 @@
-package de.elinja.whiteboard.numberprovider.osgi;
+package de.elinja.whiteboard.numberproducer.osgi;
 
 import java.util.function.Consumer;
 
 import org.osgi.framework.BundleContext;
 import org.osgi.util.tracker.ServiceTracker;
 
-import de.elinja.whiteboard.numberprovider.WhiteboardAccess;
+import de.elinja.whiteboard.numberproducer.WhiteboardAccess;
 
 public class DecoratedServiceTracker<S> extends ServiceTracker<S, S> implements
 		WhiteboardAccess<S> {

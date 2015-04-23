@@ -1,10 +1,10 @@
-package de.elinja.whiteboard.numberprovider.osgi;
+package de.elinja.whiteboard.numberproducer.osgi;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
 import de.elinja.whiteboard.api.NumberPrinter;
-import de.elinja.whiteboard.numberprovider.NumberProvider;
+import de.elinja.whiteboard.numberproducer.NumberProducer;
 
 public class Activator implements BundleActivator {
 
@@ -24,7 +24,7 @@ public class Activator implements BundleActivator {
 	}
 
 	private void startNumberProviding() {
-		NumberProvider numberProvider = new NumberProvider();
+		NumberProducer numberProvider = new NumberProducer();
 		numberProvider.provideNumbers(serviceTracker);
 	}
 

@@ -1,8 +1,8 @@
-package de.elinja.whiteboard.numberprovider;
+package de.elinja.whiteboard.numberproducer;
 
 import de.elinja.whiteboard.api.NumberPrinter;
 
-public class NumberProvider {
+public class NumberProducer {
 
 	private void printNumberOnPrinters(long number,
 			WhiteboardAccess<NumberPrinter> whiteboardAccess) {

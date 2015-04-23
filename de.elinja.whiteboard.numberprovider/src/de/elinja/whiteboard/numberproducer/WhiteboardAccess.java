@@ -1,4 +1,4 @@
-package de.elinja.whiteboard.numberprovider;
+package de.elinja.whiteboard.numberproducer;
 
 import java.util.function.Consumer;
 
