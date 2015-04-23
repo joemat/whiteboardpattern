@@ -7,7 +7,12 @@ You need an [Eclipse](http://www.eclipse.org) with the [Declarative Services Ann
 
 # Running the example
 
-* Import all 4 projects into your Eclipse workspace.
+* Import the 4 projects 
+ * de.elinja.whiteboard.api
+ * de.elinja.whiteboard.numberproducer
+ * de.elinja.whiteboard.printer.bin
+ * de.elinja.whiteboard.printer.hex
+ into your Eclipse workspace.
 * Right-click *WhiteboardPatternExample.launch* and select *Run As WhiteboardPatternExample*
 
 The output of the sample should be
