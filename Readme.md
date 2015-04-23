@@ -13,7 +13,7 @@ You need an [Eclipse](http://www.eclipse.org) with the [Declarative Services Ann
  * _de.elinja.whiteboard.printer.bin_
  * _de.elinja.whiteboard.printer.hex_
  into your Eclipse workspace.
-* Right-click *WhiteboardPatternExample.launch* and select *Run As WhiteboardPatternExample*
+* In project _de.elinja.whiteboard.numberproducer_: Right-click *WhiteboardPatternExample.launch* in and select *Run As WhiteboardPatternExample*
 
 The output of the sample should be
 
